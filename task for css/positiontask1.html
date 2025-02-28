@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .relative {
+            height: 100px;
+            width: 100px;
+            background-color: lightcyan;
+            position: relative;
+            top: 50px;
+            right: 30px;
+        }
+        .absoulteposition{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+position: relative;
+width: 300px;
+height: 200px;
+background-color: lightgray;
+border: 2px solid black;
+        }
+        .red-box{
+            position: absolute;
+            width: 50px;
+            top: 10px;
+            right: 10px;
+            height: 50px;
+            background-color: red;
+        }
+
+       
+    </style>
+</head>
+
+<body>
+    <!-- relative position -->
+    <div class="relative">
+        <p>
+            Lorem ipsum dolor
+        </p>
+
+    </div>
+    <hr>
+
+    <!-- Absolute position -->
+    <div class="absoulteposition">
+        <div class="red-box"></div>
+    </div>
+
+</body>
+
+</html>

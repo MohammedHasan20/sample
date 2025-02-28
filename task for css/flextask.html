@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Power grid: store Homepage</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            background-color: orangered;
+            padding: 0px;
+            color: white;
+        }
+
+        nav ul {
+            display: flex;
+        
+        }
+
+        ul>button {
+            list-style: none;
+            border: 2px solid black;
+            background-color: white;
+            height: 25px;
+            width: 315px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 5px;
+            padding: 5px;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+            background-color: aqua;
+
+        }
+        article{
+            background-color: white;
+            border: 1px solid lightskyblue;
+            box-shadow: 2px 2px 5px rgba(0 , 0, 0, 0.1);
+
+        }
+        article img{
+            width: 100%;
+            height: 200px;
+           object-fit: contain;
+
+        }
+        article p{
+            flex-grow: 1;
+
+        }
+button{
+    border: 1px solid black;
+    background:white;
+    padding: 10px;
+    cursor: pointer; 
+    width: 300px;
+}
+footer{
+    background-color: orangered;
+    padding: 10px;
+    color: white;
+   
+}
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>power grid:store or home page</h1>
+        <div>
+            <nav>
+                <ul class="one">
+                    <button>home</button>
+                    <button>about</button>
+                    <button>blog</button>
+                    <button>careers</button>
+                    <button>contact us</button>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <article>
+                <img src="../img/tree house.jpg" alt="image1">
+                <p>this is some awesome content that is on the page</p>
+                <button> go somewhere</button>
+            </article>
+            <article>
+                <img src="../img/tea estate.jpg" alt="image2">
+                <p>this is more than the pervious content box but less than the next</p>
+                <button>click me</button>
+            </article>
+            <article>
+                <img src="../img/todolist.jpg" alt="image3">
+                <p>we have lots of content can grow, and everthings can be the same .</p>
+                <button>Do something</button>
+            </article>
+
+
+        </div>
+    </main>
+    <footer>
+        <p>&copy;copyright 2016</p>
+    </footer>
+</body>
+
+</html>

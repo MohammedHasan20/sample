@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input[type="checkbox"],
+        input[type="radio"]{
+            width: 20px;
+            height: 20px;
+            border: 6px solid black;
+            border-radius: 5px;
+            display: inline-block;
+            position: relative;
+            cursor: pointer;
+
+        }
+
+      
+        input[type="checkbox"] {
+            border-radius: 3px;
+        }
+
+       
+        input[type="radio"] {
+            border-radius: 50%;
+        }
+
+      
+        input[type="checkbox"]:checked,
+        input[type="radio"]:checked {
+            background-color: #007bff;
+            border-color: #0056b3;
+        }
+        input[type="checkbox"]:checked::after,
+        input[type="radio"]:checked::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 10px;
+            height: 10px;
+            background-color: white;
+            transform: translate(-50%, -50%);
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <label >
+        <input type="checkbox">checkbox1
+    </label>
+    <label >
+        <input type="checkbox">checkbox2
+    </label>
+    <br><br>
+    <label >
+        <input type="radio" name="radio-group">radio1
+    </label>
+    <label >
+        <input type="radio" name="radio-group">radio2
+    </label>
+    
+    
+</body>
+</html>

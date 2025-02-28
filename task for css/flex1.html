@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            color: white;
+            justify-content: space-between;
+        }
+
+        .container>div {
+            border: 1px solid rgb(77, 114, 152);
+            background-color: rgb(77, 114, 152);
+            padding: 5px;
+            margin: 2px;
+        }
+
+        .table {
+            display: flex;
+            color: white;
+            height: 400px;
+        }
+
+        .table>div {
+            border: 2px solid rgb(77, 114, 152);
+            background-color: rgb(77, 114, 152);
+            padding: 4px;
+            margin: 3px;
+            width: 50%;
+        }
+
+        .scale {
+            height: 250px;
+            width: 300px;
+            border: 2px solid goldenrod;
+        }
+
+        .order {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            align-content: space-between;
+        }
+
+        .order>div {
+            width: 80px;
+            height: 30px;
+            margin: 2px;
+            padding: 3px;
+            background-color: rgb(77, 114, 152);
+        }
+
+        button {
+            background-color: blue;
+            color: white;
+        }
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+}
+label{
+    margin-top: 10px;
+    font-weight: bold;
+
+}
+input{
+    width: 80%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.checkbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.checkbox input{
+    margin-right: 5px;
+}
+
+        
+     
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div>Home</div>
+        <div>About us</div>
+        <div>Our Products</div>
+        <div>Contact Us</div>
+    </div>
+    <hr>
+    <div class="table">
+        <div>I am small</div>
+        <div>I have more content than the very small item</div>
+        <div>I have lots of content. So much content that I don't know where it is all going to go. i'm glad that cssis
+            pretty good at dealing with situations where we end up with more words than expected.</div>
+    </div>
+    <hr>
+    <div class="scale">
+        <div class="order">
+            <div>orange</div>
+            <div>green</div>
+            <div>yellow</div>
+            <div>redish</div>
+            <div>maroon</div>
+            <div>golden</div>
+            <div>skybule</div>
+            <div>aqua</div>
+            <div>pink</div>
+            <div>darkblue</div>
+        </div>
+    </div>
+    <hr>
+    <div class="form">
+<form >
+    <label for="email">
+        Email Addres
+    </label>
+    <input type="email" placeholder="Enter email">
+    <label for="">Password</label>
+    <input type="password" placeholder="Enter Password">
+    <div class="checkbox">
+        <input type="checkbox" >
+        <label for="">Check me out</label>
+
+    </div>
+    <button type="submit">Submit
+
+    </button>
+</form>
+    </div>
+
+    
+</body>
+
+</html>
